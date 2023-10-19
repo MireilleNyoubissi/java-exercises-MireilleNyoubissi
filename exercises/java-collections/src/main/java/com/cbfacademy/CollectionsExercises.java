@@ -6,24 +6,58 @@ public class CollectionsExercises {
 
     public LinkedList<Integer> useLinkedList() {
         // TODO: create an empty linked list
+        
+        LinkedList<Integer> list = new LinkedList<Integer>();
+
         //  - add 4 as the first element of the list
+            list.add(0, 4);
+        
         //  - then add 5, 6, 8, 2, 9 to the the list
-        //  - add another 2 as the last element of the list
+            list.add(5);
+            list.add(6);
+            list.add(8);
+            list.add(2);
+            list.add(9);
+
+        //  - add another 2 as the last element of the list   
+            list.addLast(2);
+
         //  - add 4 as the 3rd element of the list
+            list.add(2, 4);
+
         //  - invoke the method element() on the list and print the result on the screen
+            System.out.println(list.element());
+
         //  - return the list
-        throw new RuntimeException("Not implemented");
+            return list;
     }
 
     public Stack<Integer> useStack() {
         // TODO: create an empty stack
+
+        Stack<Integer> stack = new Stack<Integer>();
+
         //  - add 5, 6, 8, 9 to the the stack
+            stack.push(5);
+            stack.push(6);
+            stack.push(8);
+            stack.push(9);
+
         //  - print the first element of the stack on the screen
+            System.out.println(stack.firstElement());
+
         //  - print the last element of the stack on the screen
+            System.out.println(stack.lastElement());
+
         //  - invoke the method pop() on the stack and print the result on the screen
+            System.out.println(stack.pop());
+
         //  - invoke the push(4) method on the stack
+            stack.push(4);
+
         //  - return the stack
-        throw new RuntimeException("Not implemented");
+            return stack; 
+
     }
 
     public ArrayDeque<Integer> useArrayDeque() {
@@ -34,7 +68,8 @@ public class CollectionsExercises {
         //  - invoke the method poll() on the queue and print the result on the screen
         //  - invoke the element() method on the queue and print the result on the screen
         //  - return the queue
-        throw new RuntimeException("Not implemented");
+        
+        ArrayDeque<Integer> deque = new ArrayDeque<>();
     }
 
     public HashMap<Integer, String> useHashMap() {

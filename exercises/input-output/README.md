@@ -4,7 +4,7 @@
 [![JUnit5 Testing Framework](https://img.shields.io/badge/testing%20framework-JUnit5-26A162.svg?style=for-the-badge)][2]
 [![Maven Dependency Manager](https://img.shields.io/badge/dependency%20manager-Maven-AA215A.svg?style=for-the-badge)][3]
 
-The goal of these programming exercises is to practise I/O concepts:
+The goal of these programming exercises is to practice I/O concepts:
 - Reading from a file
 - Writing to a file
 
